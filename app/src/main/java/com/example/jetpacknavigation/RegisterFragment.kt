@@ -22,7 +22,7 @@ class RegisterFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnRegister.setOnClickListener {
-            it.findNavController().navigate(R.id.action_registerFragment_to_homeFragment)
+            it.findNavController().navigate(R.id.action_registerFragment_to_mainFragment)
         }
     }
 }
