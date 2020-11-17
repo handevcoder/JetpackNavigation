@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/home"
+        android:id="@+id/nav_home"
         android:title="home"
         android:icon="@drawable/ic_launcher_foreground"/>
     <item
-        android:id="@+id/list"
+        android:id="@+id/nav_list"
         android:title="list"
         android:icon="@drawable/ic_launcher_foreground"/>
     <item
-        android:id="@+id/profile"
+        android:id="@+id/nav_profile"
         android:title="profile"
         android:icon="@drawable/ic_launcher_foreground"/>
 </menu>
